@@ -1,16 +1,28 @@
 body{
-	background-color: gold;
+	background-color: black;
+	background-image: url('images/backg2.jpeg');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: 'Courier New',monospace;
+  color: ghostwhite;
+}
+.container{
+	background-color: black;
+}
+#navbar-header{
+	background-color: black;
 }
 h1{
+	background-color: black;
 	text-align: center;
 	font-family: Helvetica;
-	color: orangered;
+	color: whitesmoke;
 	/*text-decoration: underline;*/
 }
 p{
-	color: blue;
+	color: ghostwhite;
 	font-size: 20px;
-	font-family: helvetica;
 }
 #copyright{
 	text-align: right;
@@ -26,4 +38,8 @@ p{
 }
 #new{
 	color: red;
+}
+a{
+	color: ghostwhite;
+	text-decoration: none;
 }
