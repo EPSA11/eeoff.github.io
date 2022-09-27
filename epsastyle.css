@@ -7,19 +7,31 @@ body{
   font-family: 'Courier New',monospace;
   color: ghostwhite;
 }
-.container{
+.container-fluid{
 	background-color: black;
+}
+.navbar-brand{
+  margin-top: 10px;
+  padding-top:0px;
 }
 #navbar-header{
 	background-color: black;
 }
+/*#nav-list a:hover{
+	background: green;
+	width: 100%;
+}*/
 h1{
+	margin-top: 5px;
 	background-color: black;
 	text-align: center;
 	font-family: Helvetica;
 	color: whitesmoke;
 	/*text-decoration: underline;*/
 }
+/*button{
+	border: 1px solid black;
+}*/
 p{
 	color: ghostwhite;
 	font-size: 20px;
@@ -42,4 +54,125 @@ p{
 a{
 	color: ghostwhite;
 	text-decoration: none;
+}
+
+/*#header-nav{
+	background-color: orange;
+	border-radius: 0;
+	border: 2px solid black;
+}*/
+
+/*.navbar-nav{
+  margin:0 -15px  !important;
+}*/
+/*h1{
+	color: red;
+	font-family: cursive;
+	font-weight: bold;
+}*/
+/*h3{
+	font-weight: bold;
+}*/
+#nav-list
+{
+	margin: 10px;
+}
+.jumbotron{
+	background-color: #111212;
+	padding: 20px;
+}
+#nav-list a{
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+	border: 1px solid black;
+}
+/*.icon-bar{
+	border: 1px solid black;
+}*/
+#nav-list a:hover{
+	background: darkgrey;
+	width: 100%;
+}
+*//*p{
+	font-size: 15px;
+}
+.menu{
+	font-size: 45px;
+}
+#text{
+	font-size: 20px;
+	height: 5000px;
+	background-color: thistle;
+}
+@media (max-width:767px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+  }
+  #text{
+  	margin: 15px;
+  }
+}
+
+/*.icon-bar {
+	float: right;
+  width: 90px; 
+  background-color: black; 
+}*/
+
+
+
+/*.active {
+  background-color: #04AA6D; 
+}*/
+
+
+
+
+
+@media (max-width:767px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+  }
+  h1{
+  	font-size: 5vw;
+  }
+  #text{
+  	margin: 15px;
+  }
+  
+}
+@media (min-width:768px)and (max-width: 991px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+  }
+  h1{
+  	
+  	margin-left: 15px;
+  }
+  #text{
+  	margin: 15px;
+  }
+}
+@media (min-width:992px)and (max-width: 1199px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+  }
+  h1{
+  	margin-left: 10px;
+  }
+  #text{
+  	margin: 15px;
+  }
+}
+@media (min-width:1200px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+  }
+  h1{
+  	margin-left: 15px;
+  }
+  #text{
+  	margin: 15px;
+  }
 }
