@@ -116,7 +116,9 @@ a{
   #text{
   	margin: 15px;
   }
-  
+  .jumb{
+  	width: 100%;
+  }  
 }
 @media (min-width:768px)and (max-width: 991px){
   .navbar-brand:focus, .navbar-brand{
@@ -129,6 +131,9 @@ a{
   #text{
   	margin: 15px;
   }
+  .jumb{
+  	width: 100%;
+  }
 }
 @media (min-width:992px)and (max-width: 1199px){
   .navbar-brand:focus, .navbar-brand{
@@ -139,6 +144,9 @@ a{
   }
   #text{
   	margin: 15px;
+  }
+  .jumb{
+  	width: 100%;
   }
 }
 @media (min-width:1200px){
